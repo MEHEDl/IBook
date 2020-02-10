@@ -170,6 +170,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProductManagerController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -235,6 +236,10 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\ProductManager\Index.cshtml" />
+    <Content Include="Views\ProductManager\Create.cshtml" />
+    <Content Include="Views\ProductManager\Edit.cshtml" />
+    <Content Include="Views\ProductManager\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -251,6 +256,24 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\iBook.Core\iBook.Core.csproj">
+      <Project>{94814d0d-ba25-4487-8a49-2fd696123fc3}</Project>
+      <Name>iBook.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\iBook.DataAccess.InMemory\iBook.DataAccess.InMemory.csproj">
+      <Project>{7fd2806b-6169-41dc-b547-3d7dc973221e}</Project>
+      <Name>iBook.DataAccess.InMemory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\iBook.DataAccess.SQL\iBook.DataAccess.SQL.csproj">
+      <Project>{0e22f5e9-13c1-4b9f-a05d-bb629733ab32}</Project>
+      <Name>iBook.DataAccess.SQL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\iBook.Services\iBook.Services.csproj">
+      <Project>{59212d3e-4273-4ddf-9c89-3de06a443b8a}</Project>
+      <Name>iBook.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
