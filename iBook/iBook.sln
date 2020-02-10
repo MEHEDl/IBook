@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iBook.Core", "iBook.Core\iBook.Core.csproj", "{94814D0D-BA25-4487-8A49-2FD696123FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iBook.DataAccess.InMemory", "iBook.DataAccess.InMemory\iBook.DataAccess.InMemory.csproj", "{7FD2806B-6169-41DC-B547-3D7DC973221E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iBook.DataAccess.SQL", "iBook.DataAccess.SQL\iBook.DataAccess.SQL.csproj", "{0E22F5E9-13C1-4B9F-A05D-BB629733AB32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iBook.Services", "iBook.Services\iBook.Services.csproj", "{59212D3E-4273-4DDF-9C89-3DE06A443B8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iBook.WebUI", "iBook.WebUI\iBook.WebUI.csproj", "{EE0C4213-8FB4-44C3-A40D-3DD22CD68B2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iBook.WebUI.Tests", "iBook.WebUI.Tests\iBook.WebUI.Tests.csproj", "{C3B591C1-819E-4A1B-B1A5-8099A2DF2F3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94814D0D-BA25-4487-8A49-2FD696123FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94814D0D-BA25-4487-8A49-2FD696123FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94814D0D-BA25-4487-8A49-2FD696123FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94814D0D-BA25-4487-8A49-2FD696123FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FD2806B-6169-41DC-B547-3D7DC973221E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD2806B-6169-41DC-B547-3D7DC973221E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD2806B-6169-41DC-B547-3D7DC973221E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD2806B-6169-41DC-B547-3D7DC973221E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E22F5E9-13C1-4B9F-A05D-BB629733AB32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E22F5E9-13C1-4B9F-A05D-BB629733AB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E22F5E9-13C1-4B9F-A05D-BB629733AB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E22F5E9-13C1-4B9F-A05D-BB629733AB32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59212D3E-4273-4DDF-9C89-3DE06A443B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59212D3E-4273-4DDF-9C89-3DE06A443B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59212D3E-4273-4DDF-9C89-3DE06A443B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59212D3E-4273-4DDF-9C89-3DE06A443B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE0C4213-8FB4-44C3-A40D-3DD22CD68B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0C4213-8FB4-44C3-A40D-3DD22CD68B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0C4213-8FB4-44C3-A40D-3DD22CD68B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0C4213-8FB4-44C3-A40D-3DD22CD68B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B591C1-819E-4A1B-B1A5-8099A2DF2F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B591C1-819E-4A1B-B1A5-8099A2DF2F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B591C1-819E-4A1B-B1A5-8099A2DF2F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B591C1-819E-4A1B-B1A5-8099A2DF2F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB4E262C-703A-4E72-8632-7729D2248B2B}
+	EndGlobalSection
+EndGlobal
