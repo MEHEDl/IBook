@@ -11,10 +11,10 @@ namespace iBook.WebUI.Controllers
     public class ProductCategoryManagerController : Controller
     {
         // GET: ProductCategoryManager
-        ProductCategoryRepository context;
+        InMemoryRepository<ProductCategory> context;
         public ProductCategoryManagerController()
         {
-            context = new ProductCategoryRepository();
+            context = new InMemoryRepository<ProductCategory>();
         }
         // GET: ProductManager
         public ActionResult Index()
@@ -38,7 +38,7 @@ namespace iBook.WebUI.Controllers
             }
             else
             {
-                context.Insert(productCategory);
+                context.Intert(productCategory);
                 context.Commit();
 
                 return RedirectToAction("Index");
